@@ -1,9 +1,7 @@
-import "./Price.css"
-
 export default function Price( { price, currency } ) {
     return (
         <>
-            <p className="price">{price} {currency}</p>
+            <h5 className="card-text mb-0">{price} {currency}</h5>
         </>
     )
 }

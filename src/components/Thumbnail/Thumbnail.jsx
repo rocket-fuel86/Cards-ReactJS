@@ -1,9 +1,7 @@
-import "./Thumbnail.css"
-
 export default function Thumbnail({ src, alt }) {
     return (
         <>
-            <img className="thumbnail" src={ src } alt={ alt } />
+            <img className="card-img-top" src={ src } alt={ alt } />
         </>
     )
 }
